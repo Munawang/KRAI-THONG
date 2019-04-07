@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuSelection.cs" />
+    <Compile Include="Assets\Scripts\Scrollbackground.cs" />
     <None Include="Assets\Knight Files\Read Me.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Supapitch/Documents/GitHub/KRAI-THONG/Kraithong_Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
