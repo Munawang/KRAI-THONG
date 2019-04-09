@@ -307,8 +307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: -293}
-  m_SizeDelta: {x: 750, y: 120}
+  m_AnchoredPosition: {x: 29, y: -437}
+  m_SizeDelta: {x: 750, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119054798
 MonoBehaviour:
@@ -337,16 +337,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0E17\u0E48\u0E32\u0E19\u0E40\u0E28\u0E23\u0E29\u0E10\u0E35\u0E40\u0E2A\u0E35\u0E22\u0E43\u0E08\u0E21\u0E32\u0E01
-    \u0E08\u0E36\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E44\u0E1B\u0E27\u0E48\u0E32\u0E43\u0E04\u0E23\u0E17\u0E35\u0E48\u0E0A\u0E48\u0E27\u0E22\u0E19\u0E32\u0E07\u0E15\u0E30\u0E40\u0E20\u0E32\u0E17\u0E2D\u0E07\u0E41\u0E25\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16
-    \u0E1B\u0E23\u0E32\u0E1A\u0E08\u0E23\u0E30\u0E40\u0E02\u0E49\u0E15\u0E31\u0E27\u0E19\u0E35\u0E49\u0E44\u0E14\u0E49\u0E08\u0E30\u0E21\u0E2D\u0E1A\u0E2A\u0E21\u0E1A\u0E31\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E15\u0E19\u0E40\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E36\u0E48\u0E07\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E41\u0E25\u0E30\u0E08\u0E30\u0E43\u0E2B\u0E49\u0E41\u0E15\u0E48\u0E07\u0E07\u0E32\u0E19\n\u0E01\u0E31\u0E1A\u0E19\u0E32\u0E07\u0E15\u0E30\u0E40\u0E20\u0E32\u0E41\u0E01\u0E49\u0E27\u0E14\u0E49\u0E27\u0E22
-    \u0E41\u0E15\u0E48\u0E01\u0E47\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1C\u0E39\u0E49\u0E21\u0E35\u0E2D\u0E32\u0E04\u0E21\u0E04\u0E19\u0E44\u0E2B\u0E19\u0E40\u0E25\u0E22\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E32\u0E1A\u0E0A\u0E32\u0E25\u0E30\u0E27\u0E31\u0E19\u0E44\u0E14\u0E49"
+    \u0E08\u0E36\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E32\u0E28\u0E44\u0E1B\u0E27\u0E48\u0E32\u0E43\u0E04\u0E23\u0E17\u0E35\u0E48\u0E0A\u0E48\u0E27\u0E22\u0E19\u0E32\u0E07\u0E15\u0E30\u0E40\u0E20\u0E32\u0E17\u0E2D\u0E07
+    \n\u0E41\u0E25\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E32\u0E1A\u0E0A\u0E32\u0E25\u0E30\u0E27\u0E31\u0E19\u0E44\u0E14\u0E49
+    \u0E08\u0E30\u0E21\u0E2D\u0E1A\u0E2A\u0E21\u0E1A\u0E31\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E15\u0E19\u0E40\u0E2D\u0E07\u0E43\u0E2B\u0E49\u0E04\u0E23\u0E36\u0E48\u0E07\u0E2B\u0E19\u0E36\u0E48\u0E07
+    \u0E1E\u0E23\u0E49\u0E2D\u0E21\u0E17\u0E31\u0E49\u0E07\u0E22\u0E01\u0E19\u0E32\u0E07\u0E15\u0E30\u0E40\u0E20\u0E32\u0E41\u0E01\u0E49\u0E27\u0E43\u0E2B\u0E49\u0E2D\u0E35\u0E01\u0E14\u0E49\u0E27\u0E22
+    \u0E41\u0E15\u0E48\u0E17\u0E27\u0E48\u0E32... \u0E01\u0E25\u0E31\u0E1A\u0E44\u0E21\u0E48\u0E21\u0E35\u0E1C\u0E39\u0E49\u0E21\u0E35\u0E2D\u0E32\u0E04\u0E21\u0E04\u0E19\u0E43\u0E14\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E32\u0E1A\u0E0A\u0E32\u0E25\u0E30\u0E27\u0E31\u0E19\u0E44\u0E14\u0E49\u0E40\u0E25\u0E22"
 --- !u!222 &119054799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -896,7 +898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782006583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: -5.17, z: 0}
+  m_LocalPosition: {x: 0.07, y: -4.23, z: 0}
   m_LocalScale: {x: 1.1320735, y: 0.49178103, z: 0.26054624}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1108,7 +1110,7 @@ GameObject:
   - component: {fileID: 1119417842}
   - component: {fileID: 1119417841}
   m_Layer: 0
-  m_Name: "\u0E09\u0E32\u0E011-01"
+  m_Name: cutscene3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1170,8 +1172,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119417840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.31, y: 0.34, z: 0}
-  m_LocalScale: {x: 0.27505115, y: 0.27505115, z: 0.27505115}
+  m_LocalPosition: {x: -0.31, y: 0.93, z: 0}
+  m_LocalScale: {x: 0.28719136, y: 0.28719136, z: 0.28719136}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1212,7 +1214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -597, y: -260}
+  m_AnchoredPosition: {x: -582, y: -317}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445489761
@@ -1359,7 +1361,7 @@ GameObject:
   - component: {fileID: 1755405312}
   - component: {fileID: 1755405311}
   m_Layer: 0
-  m_Name: borad_story
+  m_Name: board_story
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
