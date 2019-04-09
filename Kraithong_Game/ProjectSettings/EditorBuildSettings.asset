@@ -33,6 +33,18 @@ EditorBuildSettings:
     path: Assets/Scenes/StartGame.unity
     guid: 15147ecf20db95c4a941db5ddea578d2
   - enabled: 1
+    path: Assets/Scenes/GameLevel_2.unity
+    guid: 9ca4f986af226b441ad07d0dd906c9c4
+  - enabled: 1
+    path: Assets/Scenes/PassScoreLv.1.unity
+    guid: 78d86d8ecc07f3842a4afc95024af2ee
+  - enabled: 1
+    path: Assets/Scenes/FailScoreLv.1.unity
+    guid: ccadf33b4c0897c44b70c6fc64ecfba0
+  - enabled: 1
+    path: Assets/Scenes/GameLevel_3.unity
+    guid: d3a3dd2b15afb324e9d4170ee55582f8
+  - enabled: 1
     path: Assets/Scenes/GameLevel_1.unity
     guid: a867a00dc287ab549a57b700914588e2
   m_configObjects: {}
