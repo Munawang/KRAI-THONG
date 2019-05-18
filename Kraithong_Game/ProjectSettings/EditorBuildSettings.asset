@@ -30,40 +30,40 @@ EditorBuildSettings:
     path: Assets/__DELETED_GUID_Trash/b6176290a2594eb44b32bc26ca24509b
     guid: b6176290a2594eb44b32bc26ca24509b
   - enabled: 1
-    path: Assets/Scenes/StoryGame_1.unity
+    path: Assets/Scenes/StoryGame/StoryGame_1.unity
     guid: ffac88287c4be634e9a38b22fdfc09fb
   - enabled: 1
-    path: Assets/Scenes/StoryGame_2.unity
+    path: Assets/Scenes/StoryGame/StoryGame_2.unity
     guid: 64aeb0867743020408775bd19ca31043
   - enabled: 1
-    path: Assets/Scenes/StoryGame_3.unity
+    path: Assets/Scenes/StoryGame/StoryGame_3.unity
     guid: 17ec30eca00a98742b4683c801947907
   - enabled: 1
-    path: Assets/Scenes/StoryGame_4.unity
+    path: Assets/Scenes/StoryGame/StoryGame_4.unity
     guid: c876e8ba257def4449271c7161c71d70
   - enabled: 1
-    path: Assets/Scenes/StoryGame_5.unity
+    path: Assets/Scenes/StoryGame/StoryGame_5.unity
     guid: 8d81d741b1bcda8479255c9f96f76b61
   - enabled: 1
-    path: Assets/Scenes/StartGame.unity
+    path: Assets/Scenes/StoryGame/StartGame.unity
     guid: 15147ecf20db95c4a941db5ddea578d2
   - enabled: 1
-    path: Assets/Scenes/GameLevel_1.unity
+    path: Assets/Scenes/Level_1/GameLevel_1.unity
     guid: a867a00dc287ab549a57b700914588e2
   - enabled: 1
-    path: Assets/Scenes/GameLevel_2.unity
+    path: Assets/Scenes/Level_2/GameLevel_2.unity
     guid: 9ca4f986af226b441ad07d0dd906c9c4
   - enabled: 1
-    path: Assets/Scenes/GameLevel_3.unity
+    path: Assets/Scenes/Level_3/GameLevel_3.unity
     guid: d3a3dd2b15afb324e9d4170ee55582f8
   - enabled: 1
-    path: Assets/Scenes/PassScoreLv.1.unity
+    path: Assets/Scenes/Level_1/PassScoreLv.1.unity
     guid: 78d86d8ecc07f3842a4afc95024af2ee
   - enabled: 1
-    path: Assets/Scenes/PassScoreLv.2.unity
+    path: Assets/Scenes/Level_2/PassScoreLv.2.unity
     guid: 844f19df523ac6d4aa9066ddbbf66717
   - enabled: 1
-    path: Assets/Scenes/PassScoreLv.3.unity
+    path: Assets/Scenes/Level_3/PassScoreLv.3.unity
     guid: 072ef8e015a649344bea4b7aedb4762f
   - enabled: 0
     path: Assets/__DELETED_GUID_Trash/c370a82275a7aaa41912ae36a89af828
@@ -72,13 +72,13 @@ EditorBuildSettings:
     path: Assets/__DELETED_GUID_Trash/df03acbb0aad9914a920deb2c3957df2
     guid: df03acbb0aad9914a920deb2c3957df2
   - enabled: 1
-    path: Assets/Scenes/FailScoreLv.1.unity
+    path: Assets/Scenes/Level_1/FailScoreLv.1.unity
     guid: ccadf33b4c0897c44b70c6fc64ecfba0
   - enabled: 1
-    path: Assets/Scenes/FailScoreLv.2.unity
+    path: Assets/Scenes/Level_2/FailScoreLv.2.unity
     guid: 58cbba8140bbfd6498ff81980ecba780
   - enabled: 1
-    path: Assets/Scenes/FailScoreLv.3.unity
+    path: Assets/Scenes/Level_3/FailScoreLv.3.unity
     guid: 2ad6d4e07acb3cd4ea8acae9b54d3866
   - enabled: 0
     path: Assets/__DELETED_GUID_Trash/b38bc61292db915478611929a2069451
