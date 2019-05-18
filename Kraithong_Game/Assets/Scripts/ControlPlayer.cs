@@ -74,7 +74,7 @@ public class ControlPlayer : MonoBehaviour
             canAttack = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.K)) {
+        if (Input.GetKeyDown(KeyCode.Space)) {
             if (canAttack) {
                 canAttack = false;
                 attack_Timer = 0f;
