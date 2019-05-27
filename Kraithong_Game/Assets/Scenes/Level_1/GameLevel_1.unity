@@ -440,7 +440,7 @@ Transform:
   m_LocalScale: {x: 0.3681655, y: 0.3681655, z: 0.3681655}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &636383092
 GameObject:
@@ -1559,8 +1559,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61.9, y: 10.9}
-  m_SizeDelta: {x: 139.4, y: 85.2}
+  m_AnchoredPosition: {x: -65.374016, y: -0.0000076293945}
+  m_SizeDelta: {x: 72.238, y: 72.238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489850616
 MonoBehaviour:
@@ -1582,7 +1582,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 75a3e049c8703dd4c8c520102a77bd15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: be7f4709c8efafe4284b2e1493a61787, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1801,7 +1801,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: '0
+
+'
 --- !u!222 &1560394747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1844,7 +1846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.9, y: -35.1}
+  m_AnchoredPosition: {x: 10, y: -35}
   m_SizeDelta: {x: 186.51, y: 121.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578210555
@@ -1957,7 +1959,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 66883483ebd8d5e4cb8fc433d2af30cf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d8e94945d1d9ea49badd0438c846d48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1968,36 +1970,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1644463202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1644463203}
-  m_Layer: 0
-  m_Name: Bee_enemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1644463203
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644463202}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.050333206, y: 0.81846124, z: -2.1894531}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1835799480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,6 +2044,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835799480}
   m_CullTransparentMesh: 0
+--- !u!1 &1972852662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972852664}
+  - component: {fileID: 1972852663}
+  m_Layer: 0
+  m_Name: BeeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1972852663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972852662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min_y: -4.3
+  max_y: 4.3
+  obst_prefabs:
+  - {fileID: 3096683147155555042, guid: 492b1b1a4bf4da74e9169e449a7cb4dc, type: 3}
+  timer: 1.5
+--- !u!4 &1972852664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972852662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977440545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,6 +2416,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136257864}
   m_CullTransparentMesh: 0
+--- !u!1 &2144814636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2144814638}
+  - component: {fileID: 2144814637}
+  m_Layer: 0
+  m_Name: FireSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2144814637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144814636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  min_y: -4.3
+  max_y: 4.3
+  obst_prefabs:
+  - {fileID: 222466874276378998, guid: 1db1e2b7662504d418d24cfb68d39039, type: 3}
+  timer: 1.5
+--- !u!4 &2144814638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144814636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2926659142789159562
 PrefabInstance:
   m_ObjectHideFlags: 0

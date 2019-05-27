@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 494}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 638
-  m_MinSize: {x: 950, y: 494}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 444}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 30450
+  controlID: 6613
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 444}
   m_MaxSize: {x: 4004, y: 8044}
   vertical: 1
-  controlID: 30549
+  controlID: 6619
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 567
     height: 322
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -214,8 +214,8 @@ MonoBehaviour:
     y: 322
     width: 567
     height: 266
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -300,7 +300,7 @@ MonoBehaviour:
     height: 247
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -392,20 +392,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Level_3
+    - Assets/Prefab
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Level_3
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Supapitch\Documents\GitHub\KRAI-THONG\Kraithong_Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e300000
-    m_LastClickedID: 12318
-    m_ExpandedIDs: 00000000542c00002c2d00002e2d0000aa2d0000e62e0000f231000000ca9a3b
+    m_SelectedIDs: b23f0000
+    m_LastClickedID: 16306
+    m_ExpandedIDs: 00000000063c0000b23c0000223d0000303e0000ce3f00009a40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000542c00002c2d0000aa2d0000e62e0000f231000000ca9a3b
+    m_ExpandedIDs: 00000000063c0000b23c0000223d0000303e0000ce3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,9 +524,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.6466928, y: 2.9240637, z: 0}
+    m_Target: {x: 0.52073824, y: 1.1147354, z: -0.62044275}
     speed: 2
-    m_Value: {x: -5.6466928, y: 2.9240637, z: 0}
+    m_Value: {x: 0.52073824, y: 1.1147354, z: -0.62044275}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -559,9 +559,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.4870422
+    m_Target: 14.790655
     speed: 2
-    m_Value: 2.4870422
+    m_Value: 14.790655
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -681,7 +681,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a277ffff4478ffffe28fffff2690ffff5893ffffcc94fffff494ffff1c95ffff4095ffff6895ffffc099ffff369affff5a9affff7e9affffa69affff809bffffba9bffffde9bffff029cffff269cffff4a9cffff6e9cffff36a7ffff5aa7ffff78a7ffff84acffffc4acffffe6acffff26adfffff4b0ffff00b2ffff54b2ffff12b7ffff22b8ffff6abbffffb2bbffff06bcffff90bcffffdcbcffff1ebeffff90beffff12c0ffffd6c2ffff56c4ffff36c5ffffecc5ffff96c6ffffa0c6ffff80c7ffff5ac8ffff2cccffff70ccfffffaccffff64e7ffff70e7ffff74f2ffff76f4ffff9ef4ffffdef4ffff6cfbffff7e3300002c360000a8380000c2390000c8390000103a0000d03a0000303b0000cc3b0000aa3c0000c83c0000d63c0000ca3d0000d03d0000163e00003c3e00006c3e0000cc3e0000de3e0000c43f0000ca3f00003045000082450000b6460000ea4600000e47000090490000e2490000f0490000e84a0000224b0000544b0000604d0000924e0000da5200004255000054550000e2580000965b00003e5e0000926000008c6300000c650000
+      m_ExpandedIDs: d6e6ffffa8e7ffff1042000068420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
