@@ -2073,8 +2073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min_y: -4.3
-  max_y: 4.3
+  min_y: -3
+  max_y: 3.5
   obst_prefabs:
   - {fileID: 3096683147155555042, guid: 492b1b1a4bf4da74e9169e449a7cb4dc, type: 3}
   timer: 1.5
@@ -2445,11 +2445,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min_y: -4.3
-  max_y: 4.3
+  min_y: 0
+  max_y: 0
   obst_prefabs:
   - {fileID: 222466874276378998, guid: 1db1e2b7662504d418d24cfb68d39039, type: 3}
-  timer: 1.5
+  timer: 2.5
 --- !u!4 &2144814638
 Transform:
   m_ObjectHideFlags: 0

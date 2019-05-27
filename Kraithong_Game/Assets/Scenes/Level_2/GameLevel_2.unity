@@ -510,8 +510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min_y: -4.3
-  max_y: 4.3
+  min_y: -3
+  max_y: 3.5
   obst_prefabs:
   - {fileID: 6126561777670332731, guid: d0a13174ccfee8e4dbb8ea36f731b83b, type: 3}
   timer: 1.5
@@ -2182,7 +2182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &2057674466
 MonoBehaviour:
@@ -2196,11 +2196,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce9d0ac838a47d4cba847fbb08707d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  min_y: -4.3
-  max_y: 4.3
+  min_y: -3.5
+  max_y: 0
   obst_prefabs:
   - {fileID: 1940279263720716393, guid: 296927314fb27d54d83d63c314e341b6, type: 3}
-  timer: 1.5
+  timer: 2
 --- !u!4 &2057674467
 Transform:
   m_ObjectHideFlags: 0
