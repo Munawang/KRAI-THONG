@@ -23,10 +23,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 913, y: 444}
-  m_MaxSize: {x: 22008, y: 10022}
+  m_MinSize: {x: 915, y: 444}
+  m_MaxSize: {x: 22010, y: 10022}
   vertical: 0
-  controlID: 8901
+  controlID: 12413
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,20 +172,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation
+    - Assets/Sprite
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animation
+  - Assets/Sprite
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Munawang\Documents\GitHub\KRAI-THONG\Kraithong_Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 802d0000
-    m_LastClickedID: 11648
-    m_ExpandedIDs: 0000000064320000a0320000f43200004c330000243400001e3500005e35000000ca9a3b
+    m_SelectedIDs: d0440000
+    m_LastClickedID: 17616
+    m_ExpandedIDs: 0000000064320000a0320000da320000f4320000f63200004c330000243400001e3500005e35000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -213,7 +213,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064320000a0320000f43200004c330000243400001e3500005e35000000ca9a3b
+    m_ExpandedIDs: 0000000064320000a0320000da320000f4320000f63200004c330000243400001e3500005e35000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -238,9 +238,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4ac0ffff
-    m_LastClickedInstanceID: -16310
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 6698ffff
+    m_LastClickedInstanceID: -26522
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 47}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 110
 --- !u!114 &5
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 444}
   m_MaxSize: {x: 4004, y: 8044}
   vertical: 1
-  controlID: 8865
+  controlID: 12378
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,9 +356,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.3737416, y: 2.0670877, z: -5.7186747}
+    m_Target: {x: -1.9641871, y: 0.58672285, z: -7.0254865}
     speed: 2
-    m_Value: {x: -5.3737416, y: 2.0670877, z: -5.7186747}
+    m_Value: {x: -1.9641871, y: 0.58672285, z: -7.0254865}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -391,9 +391,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.571432
+    m_Target: 13.025061
     speed: 2
-    m_Value: 14.571432
+    m_Value: 13.025061
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -447,6 +447,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 691733198620573485, guid: 54625010faa88324a8f63677ad506615, type: 2}
+    - {fileID: -192269839315795645, guid: 09c2efb075498a54e8c3f2b7ca8ef2de, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -464,11 +465,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 54625010faa88324a8f63677ad506615,
+  m_AnimatorController: {fileID: 9100000, guid: 09c2efb075498a54e8c3f2b7ca8ef2de,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 691733198620573485, guid: 54625010faa88324a8f63677ad506615,
+  - m_Target: {fileID: -192269839315795645, guid: 09c2efb075498a54e8c3f2b7ca8ef2de,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -527,8 +544,8 @@ MonoBehaviour:
     y: 0
     width: 245
     height: 731
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -565,7 +582,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 06c3ffff2acdfffff2ebffff2eedffff96490000
+      m_ExpandedIDs: d698ffff06c3ffff2acdfffff2ebffff2eedffff96490000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -608,8 +625,8 @@ MonoBehaviour:
     y: 0
     width: 333
     height: 731
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
