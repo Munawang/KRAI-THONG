@@ -27,4 +27,11 @@ public class BulletScript : MonoBehaviour
     void DeactivateGameObject() {
         gameObject.SetActive(false);
     }
+
+    void OnTriggerEnter2D(Collider2D target) {
+        if (target.tag == "Bullet" || target.tag == "Enemy") {
+            gameObject.SetActive(false);
+        }
+    }
+
 }

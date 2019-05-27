@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -212962573016856877}
   m_Layer: 0
   m_Name: Bee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3096683147155555042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.63, y: 1.75, z: 0}
-  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_LocalPosition: {x: 7.687, y: 1.75, z: 0}
+  m_LocalScale: {x: 0.065823, y: 0.065823, z: 0.065823}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,10 +91,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.16959286, y: -1.0853786}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -105,7 +105,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.29, y: 13.66}
+  m_Size: {x: 6.9660225, y: 10.268187}
   m_EdgeRadius: 0
 --- !u!114 &-212962573016856877
 MonoBehaviour:
@@ -121,4 +121,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   bound_x: -11
-  attack_point: {fileID: 0}

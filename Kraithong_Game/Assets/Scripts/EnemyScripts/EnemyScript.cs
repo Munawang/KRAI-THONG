@@ -36,4 +36,18 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
+    void TurnOffGameObject() {
+        gameObject.SetActive(false);
+    }
+
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.tag == "Bullet") {
+            canMove = false;
+            Invoke("TurnOffGameObject", 0f);
+        }
+        
+        
+    }
+
 }
