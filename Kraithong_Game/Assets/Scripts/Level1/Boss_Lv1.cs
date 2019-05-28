@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Boss : MonoBehaviour
+public class Boss_Lv1 : MonoBehaviour
 {
 
     void TurnOffGameObject()
@@ -20,8 +20,8 @@ public class Boss : MonoBehaviour
         {
             HealthBarBoss.health -= 10f;
             if (HealthBarBoss.health == 0){
-                Invoke("TurnOffGameObject", 0f);
-                SceneManager.LoadScene("PassScoreLv.2");
+                Invoke("TurnOffGameObject", 0f);                
+                SceneManager.LoadScene("PassScoreLv.1"); 
             }
         }
         

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1940279263720716397}
   - component: {fileID: 1940279263720716394}
+  - component: {fileID: 1901317450685922476}
   - component: {fileID: 1940279263720716395}
   - component: {fileID: 1940279263720716392}
-  - component: {fileID: -7293193591254837550}
   m_Layer: 0
   m_Name: Lotus
   m_TagString: Enemy
@@ -82,6 +82,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1901317450685922476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940279263720716393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6843726dffe1b1c41a769c196e871c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  bound_x: -11
 --- !u!61 &1940279263720716395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -129,17 +143,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-7293193591254837550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940279263720716393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03b5ae17509373348b41a3b2cc9d0b65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  bound_x: -11

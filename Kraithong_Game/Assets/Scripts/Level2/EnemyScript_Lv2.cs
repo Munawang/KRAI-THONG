@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyScript : MonoBehaviour
+public class EnemyScript_Lv2 : MonoBehaviour
 {
     public float speed = 5f;
     private bool canMove = true;
+    
 
     public float bound_x = -11f;
     
@@ -43,9 +44,11 @@ public class EnemyScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D target)
     {
         if (target.tag == "Bullet") {
+            ScoreScript_Lv2.scoreValue2 += 25;
             canMove = false;
             Invoke("TurnOffGameObject", 0f);
         }
+        UnityEngine.Debug.LogError("Score Lv.2  " + ScoreScript_Lv2.scoreValue2);
         
         
     }

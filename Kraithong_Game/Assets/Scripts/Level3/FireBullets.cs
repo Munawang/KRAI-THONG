@@ -14,7 +14,7 @@ public class FireBullets : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("Fire", 0f, 2f);
+        InvokeRepeating("Fire", 0f, 4f);
     }
 
     private void Fire() {
