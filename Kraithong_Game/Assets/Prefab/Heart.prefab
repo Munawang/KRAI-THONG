@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1920000303427783475}
   - component: {fileID: 3285450106626452426}
-  - component: {fileID: 4007034483326115954}
   - component: {fileID: 759002026670951858}
+  - component: {fileID: 2636237836251877383}
   m_Layer: 0
   m_Name: Heart
-  m_TagString: Untagged
+  m_TagString: Heart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,19 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!135 &4007034483326115954
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214288962552007167}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.7
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &759002026670951858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,3 +95,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   area_x: -11
+--- !u!58 &2636237836251877383
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214288962552007167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0051933527, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6824852

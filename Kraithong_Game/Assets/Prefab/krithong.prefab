@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 451112460}
   m_Layer: 0
   m_Name: krithong
-  m_TagString: Enemy
+  m_TagString: Krithong
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,8 +60,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2926659142379466824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.12, y: -1.72, z: 0}
-  m_LocalScale: {x: 0.42851788, y: 0.4485041, z: 0.33874932}
+  m_LocalPosition: {x: -6.47, y: -1.63, z: 0}
+  m_LocalScale: {x: 0.48598212, y: 0.50864846, z: 0.3841756}
   m_Children:
   - {fileID: 381783298}
   m_Father: {fileID: 0}
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: aa1144294dedfbd4cb56b47044468a2a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e2a17f16d2dc3f47a33899ee7ff06f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -140,7 +140,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.037589073, y: 0.4313767}
+  m_Offset: {x: -1.5165986, y: 0.8173473}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -151,7 +151,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.469726, y: 10.949255}
+  m_Size: {x: 2.6517317, y: 8.926844}
   m_EdgeRadius: 0
 --- !u!50 &2926659142379466829
 Rigidbody2D:
@@ -187,10 +187,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  min_Y: -3.4
-  max_Y: 3
-  min_X: -6
-  max_X: 4
+  min_Y: -3.2
+  max_Y: 3.17
+  min_X: -6.35
+  max_X: 0
   player_Bullet: {fileID: 7784572054368251442, guid: 5c1255aabc1f71d41a2e388511835bcf,
     type: 3}
   attack_Point: {fileID: 381783298}

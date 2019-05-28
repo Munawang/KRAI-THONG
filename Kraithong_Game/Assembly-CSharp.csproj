@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\exit.cs" />
+    <Compile Include="Assets\Scripts\GhostMove.cs" />
     <Compile Include="Assets\Scripts\HealthBarBoss.cs" />
     <Compile Include="Assets\Scripts\HealthBarKT.cs" />
     <Compile Include="Assets\Scripts\ItemScript\ItemScript.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\Krithong.cs" />
     <Compile Include="Assets\Scripts\MenuSelection.cs" />
     <Compile Include="Assets\Scripts\Scrollbackground.cs" />
+    <Compile Include="Assets\Scripts\SnakeMove.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Krammii/Documents/GitHub/KRAI-THONG/Kraithong_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

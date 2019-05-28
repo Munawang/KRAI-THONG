@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
+
     void TurnOffGameObject()
     {
         gameObject.SetActive(false);

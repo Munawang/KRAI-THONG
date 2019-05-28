@@ -34,4 +34,17 @@ public class ItemScript : MonoBehaviour
 
         }
     }
+
+    void TurnOffGameObject()
+    {
+        gameObject.SetActive(false);
+    }
+
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.tag == "Krithong" || target.tag == "Heart")
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }

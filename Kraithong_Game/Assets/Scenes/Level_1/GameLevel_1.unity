@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 636383097}
   - component: {fileID: 636383096}
   - component: {fileID: 636383095}
+  - component: {fileID: 636383098}
   m_Layer: 0
   m_Name: boss
   m_TagString: Enemy
@@ -360,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636383092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.56, y: -1.48, z: 0}
+  m_LocalPosition: {x: 5.08, y: -0.91, z: 0}
   m_LocalScale: {x: 1.2332585, y: 1.2332585, z: 1.2332585}
   m_Children: []
   m_Father: {fileID: 0}
@@ -423,6 +424,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29d0d49621fe09444986d8dedb310f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &636383098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636383092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3126bb6084ed37349b365b06c847b853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &802971548
@@ -527,7 +540,7 @@ GameObject:
   - component: {fileID: 803707581}
   m_Layer: 0
   m_Name: heartSpawner
-  m_TagString: Untagged
+  m_TagString: Heart
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2270,12 +2283,12 @@ PrefabInstance:
     - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.01
+      value: -6.71
       objectReference: {fileID: 0}
     - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.7
+      value: -2.42
       objectReference: {fileID: 0}
     - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
@@ -2322,15 +2335,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2926659142379466828, guid: b302178c0a098ea4299388efcde70d6d,
+    - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 11.81
+      propertyPath: m_LocalScale.x
+      value: 0.40906087
       objectReference: {fileID: 0}
-    - target: {fileID: 2926659142379466828, guid: b302178c0a098ea4299388efcde70d6d,
+    - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 11.81
+      propertyPath: m_LocalScale.y
+      value: 0.42813957
+      objectReference: {fileID: 0}
+    - target: {fileID: 2926659142379466830, guid: b302178c0a098ea4299388efcde70d6d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.32336828
       objectReference: {fileID: 0}
     - target: {fileID: 2926659142379466825, guid: b302178c0a098ea4299388efcde70d6d,
         type: 3}
@@ -2338,6 +2356,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0426b82e609dbe14483bdf2f149a8b97,
         type: 3}
+    - target: {fileID: 451112460, guid: b302178c0a098ea4299388efcde70d6d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54625010faa88324a8f63677ad506615, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b302178c0a098ea4299388efcde70d6d, type: 3}
 --- !u!1001 &7429945218904441569

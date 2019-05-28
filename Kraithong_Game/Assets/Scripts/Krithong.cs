@@ -11,7 +11,11 @@ public class Krithong : MonoBehaviour
         {
             HealthBarKT.health -= 10f;
         }
-        else {
+        else if (col.tag == "Heart") {
+            HealthBarKT.health += 10f;
+        }
+        else
+        {
             HealthBarKT.health -= 0f;
         }
     }
