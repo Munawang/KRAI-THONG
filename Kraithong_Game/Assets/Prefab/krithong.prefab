@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381783297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.79, y: 4.09, z: 0}
+  m_LocalPosition: {x: 6.57, y: 1.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2926659142379466830}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 451112460}
   m_Layer: 0
   m_Name: krithong
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 2926659142379466824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.12, y: -1.72, z: 0}
-  m_LocalScale: {x: 0.33874932, y: 0.33874932, z: 0.33874932}
+  m_LocalScale: {x: 0.42851788, y: 0.4485041, z: 0.33874932}
   m_Children:
   - {fileID: 381783298}
   m_Father: {fileID: 0}
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300002, guid: 980b68aa23c888445a02aefc169be34e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa1144294dedfbd4cb56b47044468a2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -144,7 +144,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.63, y: 13.526601}
+    oldSize: {x: 11.81, y: 11.81}
     newSize: {x: 9.1, y: 12.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -187,9 +187,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  min_Y: -2.5
-  max_Y: 0.86
-  min_X: -7
+  min_Y: -3.4
+  max_Y: 3
+  min_X: -6
   max_X: 4
   player_Bullet: {fileID: 7784572054368251442, guid: 5c1255aabc1f71d41a2e388511835bcf,
     type: 3}
@@ -205,7 +205,7 @@ Animator:
   m_GameObject: {fileID: 2926659142379466824}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 54625010faa88324a8f63677ad506615, type: 2}
+  m_Controller: {fileID: 9100000, guid: a576f8fa931a209418f66dddfad79ace, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
