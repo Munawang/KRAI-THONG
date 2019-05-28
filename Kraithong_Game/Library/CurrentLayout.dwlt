@@ -68,7 +68,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 444}
   m_MaxSize: {x: 22006, y: 10022}
   vertical: 0
-  controlID: 3385
+  controlID: 126
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 3258
+  controlID: 77
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 06320000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3eddffffacf4ffffb2f4ffff8efbffffba320000
+      m_ExpandedIDs: e6edffff0ceeffff32eeffff58eeffff7eeeffffa4eeffffd4eefffffaeeffff50f0ffff14f1ffffacf1ffff74f3ffff9af3ffffc0f3ffffe6f3ffff84f4ffff08f5ffff2ef5ffff54f5fffff0f5ffff16f6ffff3cf6ffffb4f6ffffdaf6ffff06f7ffff2cf7ffff52f7ffffc6f7ffffe8f7ffffe4f8ffff2af9ffff54faffff8efbfffff4ffffffc23200001a3400005a360000be370000183a0000f63b0000f23d0000f23e000074410000a04200001443000048440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -319,7 +319,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -401,19 +401,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Grade
+    - Assets/Scenes/StoryGame
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Grade
+  - Assets/Scenes/StoryGame
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Munawang\Documents\GitHub\KRAI-THONG\Kraithong_Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 342d0000
-    m_LastClickedID: 11572
+    m_SelectedIDs: c4310000
+    m_LastClickedID: 12740
     m_ExpandedIDs: 00000000ce2a00008a2b0000b62b0000b82b0000442c00009c2d0000542f0000b8300000d6300000c231000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce2a00008a2b0000b62b0000b82b0000442c00009c2d0000542f0000b8300000d6300000c231000000ca9a3b
+    m_ExpandedIDs: 00000000ce2a00008a2b0000b62b0000b82b0000442c00009c2d0000542f0000b8300000d6300000c2310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
