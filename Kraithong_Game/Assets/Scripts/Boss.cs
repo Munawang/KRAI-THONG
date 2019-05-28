@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class Boss : MonoBehaviour
             HealthBarBoss.health -= 10f;
             if (HealthBarBoss.health == 0){
                 Invoke("TurnOffGameObject", 0f);
+                SceneManager.LoadScene("PassScoreLv.2");
             }
         }
         
