@@ -13,7 +13,7 @@ public class Boss_Lv1 : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "Enemy")        {
+        if (col.tag == "Enemy" || col.tag == "Krithong" || col.tag == "Heart")        {
             HealthBarBoss.health -= 0f;
         }
         else
