@@ -81,6 +81,9 @@
     <Compile Include="Assets\Scripts\MenuSelection.cs" />
     <Compile Include="Assets\Scripts\Scrollbackground.cs" />
     <Compile Include="Assets\Scripts\SnakeMove.cs" />
+    <Compile Include="Assets\Scripts\SoundScript\BGSound.cs" />
+    <Compile Include="Assets\Scripts\SoundScript\DontDestroy.cs" />
+    <Compile Include="Assets\Scripts\SoundScript\PauseAudio.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Krammii/Documents/GitHub/KRAI-THONG/Kraithong_Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -305,9 +308,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/Krammii/Documents/GitHub/KRAI-THONG/Kraithong_Game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
