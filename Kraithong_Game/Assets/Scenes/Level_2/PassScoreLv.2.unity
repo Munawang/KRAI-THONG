@@ -367,6 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444783654}
   - component: {fileID: 444783656}
+  - component: {fileID: 444783657}
   - component: {fileID: 444783655}
   m_Layer: 5
   m_Name: Time value
@@ -427,7 +428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 08:35
+  m_Text: 
 --- !u!222 &444783656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -436,6 +437,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444783653}
   m_CullTransparentMesh: 0
+--- !u!114 &444783657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444783653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab81d89d47380c64ba055aac7286a4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 444783655}
 --- !u!1 &449942408
 GameObject:
   m_ObjectHideFlags: 0

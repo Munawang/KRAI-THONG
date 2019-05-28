@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381783297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.09, y: 1.93, z: 0}
+  m_LocalPosition: {x: 5.61, y: 4.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2926659142379466830}
@@ -40,10 +40,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2926659142379466830}
   - component: {fileID: 2926659142379466825}
+  - component: {fileID: 1158140596182313349}
   - component: {fileID: 2926659142379466828}
   - component: {fileID: 2926659142379466829}
-  - component: {fileID: 5195132310862191773}
   - component: {fileID: 2926659142379466831}
+  - component: {fileID: 2260664705194116360}
   m_Layer: 0
   m_Name: krithong
   m_TagString: Krithong
@@ -103,7 +104,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 0e2a17f16d2dc3f47a33899ee7ff06f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9174632e36e0b0e478d8e8a04517f52a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,6 +115,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1158140596182313349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926659142379466824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c501ce76f5fcd5a489d41d2ca803c421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &2926659142379466828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -127,18 +140,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.47550678, y: 0.32085496}
+  m_Offset: {x: -0.081525564, y: 0.6502249}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.81, y: 11.81}
+    oldSize: {x: 11.72, y: 14.51}
     newSize: {x: 9.1, y: 12.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.303259, y: 2.5103884}
+  m_Size: {x: 3.1814961, y: 11.262274}
   m_EdgeRadius: 0
 --- !u!50 &2926659142379466829
 Rigidbody2D:
@@ -161,18 +174,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5195132310862191773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2926659142379466824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bbcd3423d104b44e8a4f7191c847685, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2926659142379466831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,11 +187,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  min_Y: -2.45
-  max_Y: 0.64
+  min_Y: -3
+  max_Y: 2.5
   min_X: -7
-  max_X: 3.5
+  max_X: 3
   player_Bullet: {fileID: 7784572054368251442, guid: 5c1255aabc1f71d41a2e388511835bcf,
     type: 3}
   attack_Point: {fileID: 381783298}
   attack_Timer: 0.35
+--- !u!95 &2260664705194116360
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926659142379466824}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 54625010faa88324a8f63677ad506615, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

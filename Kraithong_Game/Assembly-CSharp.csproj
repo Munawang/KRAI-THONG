@@ -75,11 +75,13 @@
     <Compile Include="Assets\Scripts\Level1\Krithong_Lv1.cs" />
     <Compile Include="Assets\Scripts\Level1\ScoreScript_Lv1.cs" />
     <Compile Include="Assets\Scripts\Level1\SnakeMove.cs" />
+    <Compile Include="Assets\Scripts\Level1\Time_Lv1.cs" />
     <Compile Include="Assets\Scripts\Level2\Boss_Lv2.cs" />
     <Compile Include="Assets\Scripts\Level2\EnemyScript_Lv2.cs" />
     <Compile Include="Assets\Scripts\Level2\GhostMove.cs" />
     <Compile Include="Assets\Scripts\Level2\Krithong_Lv2.cs" />
     <Compile Include="Assets\Scripts\Level2\ScoreScript_Lv2.cs" />
+    <Compile Include="Assets\Scripts\Level2\Time_Lv2.cs" />
     <Compile Include="Assets\Scripts\Level3\Boss_Lv3.cs" />
     <Compile Include="Assets\Scripts\Level3\BossMove.cs" />
     <Compile Include="Assets\Scripts\Level3\Bullet_boss.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Scripts\Level3\FireBullets.cs" />
     <Compile Include="Assets\Scripts\Level3\Krithong_Lv3.cs" />
     <Compile Include="Assets\Scripts\Level3\ScoreScript_Lv3.cs" />
+    <Compile Include="Assets\Scripts\Level3\Time_Lv3.cs" />
     <Compile Include="Assets\Scripts\MenuSelection.cs" />
     <Compile Include="Assets\Scripts\Scrollbackground.cs" />
     <Compile Include="Assets\Scripts\SoundScript\BGSound.cs" />
